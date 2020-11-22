@@ -1,0 +1,152 @@
+.second-section {
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    max-height: 700px;
+    background-color: #00c4c4;
+    background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 32%, rgba(0, 173, 173, 0.9) 68%, rgba(0, 156, 156, 0.9) 100%);
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+
+    .second-section__image {
+        background-image: url("../img/cup\ of\ berries.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 566px;
+        height: 100%;
+        min-height: 659px;
+        padding-top: 150px;
+        padding-left: 135px;
+    }
+
+    .second-section__second-container {
+        padding: 150px 166px 231px 100px;
+        
+        .second-section__second-container_first-text {
+            width: 100%;
+            max-width: 494px;
+            height: 67px;
+            color: #ffffff;
+            font-family: Raleway;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 27px;
+            text-align: left;
+        }
+
+        .second-section__second-container_main-text-second {
+            width: 100%;
+            max-width: 499px;
+            height: 100%;
+            min-height: 188px;
+            color: #ffffff;
+            font-family: Raleway;
+            font-size: 17px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 27px;
+            text-align: left;
+
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 1800px) {
+    .second-section {
+        width: 100%;
+        max-width: 1500px;
+    }
+}
+  
+@media screen and (max-width: 1199px) {
+    .second-section {
+        width: 100%;
+        max-width: 1199px;
+
+        .second-section__image {
+            margin-top: 70px;
+            padding-left: 135px;
+        }
+    
+        .second-section__second-container {
+            .second-section__second-container_first-text {
+                font-size: 60px;
+            }
+        }
+    }
+        
+}
+  
+@media screen and (max-width: 991px) {
+    .second-section {
+        width: 100%;
+        max-width: 991px;
+
+        .second-section__image {
+            margin-top: 110px;
+            padding-left: 5px;
+        }
+    
+        .second-section__second-container {
+            padding: 150px 66px 31px 50px;
+
+            .second-section__second-container_first-text {
+                font-size: 40px;
+            }
+
+            .second-section__second-container_main-text-second {
+                font-size: 17px;
+            }
+        }
+    }       
+}
+  
+@media screen and (max-width: 767px) {
+    .second-section {
+        width: 100%;
+        max-width: 767px;
+        
+    
+        .second-section__second-container {
+            padding: 100px 66px 31px 50px;
+
+            .second-section__second-container_first-text {
+                font-size: 40px;
+            }
+        }
+    }           
+}  
+
+  
+@media screen and (max-width: 575px) {
+    .second-section {
+        width: 100%;
+        max-width: 575px;
+        
+        .second-section__image {
+            margin: 10px;
+            padding: 0;
+            
+        }
+
+        .second-section__second-container {
+            padding: 30px 66px 31px 50px;
+
+            .second-section__second-container_first-text {
+                font-size: 20px;
+            }
+
+            .second-section__second-container_main-text-second {
+                font-size: 15px;
+                width: 210px;
+            }
+        }
+        
+    }
+    
+}
