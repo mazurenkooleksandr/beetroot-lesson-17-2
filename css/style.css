@@ -1797,8 +1797,7 @@ body {
 .fifth-section {
   width: 100%;
   max-width: 1500px;
-  height: 100%;
-  min-height: 500px;
+  height: 500px;
   margin: 0 auto;
   background-image: url("../img/bg1.png");
   background-repeat: no-repeat;
@@ -1864,6 +1863,7 @@ body {
   .fifth-section {
     width: 100%;
     max-width: 1500px;
+    height: 400px;
   }
 }
 
@@ -1871,6 +1871,7 @@ body {
   .fifth-section {
     width: 100%;
     max-width: 1199px;
+    height: 330px;
   }
   .fifth-section .fifth-section__header {
     color: #262626;
@@ -1928,6 +1929,7 @@ body {
   .fifth-section {
     width: 100%;
     max-width: 991px;
+    height: 250px;
   }
   .fifth-section .fifth-section__header {
     color: #262626;
@@ -1985,6 +1987,7 @@ body {
   .fifth-section {
     width: 100%;
     max-width: 767px;
+    height: 190px;
   }
   .fifth-section .fifth-section__header {
     color: #262626;
@@ -2151,6 +2154,370 @@ body {
   }
   .fifth-section .fifth-section__button:hover {
     background-color: violet;
+  }
+}
+
+.sixth-section {
+  width: 100%;
+  max-width: 1500px;
+  height: 864px;
+  background-color: #b07cf7;
+  margin: 0 auto;
+}
+
+.sixth-section .sixth-section__header h1 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.sixth-section .sixth-section__header p {
+  width: 100%;
+  max-width: 563px;
+  height: 66px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.sixth-section .sixth-section__pictures_date {
+  width: 100%;
+  max-width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgba(38, 38, 38, 0.5);
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+
+.sixth-section .sixth-section__pictures_text {
+  width: 100%;
+  max-width: 328px;
+  height: 78px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 10px;
+}
+
+.sixth-section .sixth-section__pictures_author {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+.sixth-section .sixth-section__pictures_info {
+  padding: 20px 10px;
+}
+
+.sixth-section .sixth-section__pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.sixth-section .sixth-section__pictures_apples {
+  background-image: url("../img/apples.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sixth-section .sixth-section__pictures_peases {
+  background-image: url("../img/peases.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sixth-section .sixth-section__pictures_raspberries {
+  background-image: url("../img/raspberries.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sixth-section .sixth-section__footer {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 180px;
+  height: 55px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #f72b3b;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 90px;
+  cursor: pointer;
+}
+
+.sixth-section .sixth-section__footer:hover {
+  background-color: turquoise;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media screen and (max-width: 1500px) {
+  .sixth-section {
+    width: 100%;
+    max-width: 1500px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .sixth-section {
+    width: 100%;
+    max-width: 1199px;
+  }
+  .sixth-section .sixth-section__pictures_apples {
+    background-image: url("../img/apples.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+  .sixth-section .sixth-section__pictures_peases {
+    background-image: url("../img/peases.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+  .sixth-section .sixth-section__pictures_raspberries {
+    background-image: url("../img/raspberries.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+  .sixth-section .sixth-section__pictures_date {
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 20px;
+  }
+  .sixth-section .sixth-section__pictures_text {
+    width: 100%;
+    max-width: 258px;
+    height: 78px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  .sixth-section .sixth-section__pictures_author {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sixth-section {
+    width: 100%;
+    max-width: 991px;
+    height: 750px;
+  }
+  .sixth-section .sixth-section__pictures_apples {
+    background-image: url("../img/apples.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-left: 10px;
+  }
+  .sixth-section .sixth-section__pictures_peases {
+    background-image: url("../img/peases.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+  .sixth-section .sixth-section__pictures_raspberries {
+    background-image: url("../img/raspberries.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+  .sixth-section .sixth-section__pictures_date {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 15px;
+  }
+  .sixth-section .sixth-section__pictures_text {
+    width: 100%;
+    max-width: 238px;
+    height: 78px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .sixth-section .sixth-section__pictures_author {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sixth-section {
+    width: 100%;
+    max-width: 767px;
+    height: 580px;
+  }
+  .sixth-section .sixth-section__header h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .sixth-section .sixth-section__header p {
+    width: 100%;
+    max-width: 563px;
+    height: 66px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+  .sixth-section .sixth-section__pictures_apples {
+    background-image: url("../img/apples.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-left: 10px;
+  }
+  .sixth-section .sixth-section__pictures_peases {
+    background-image: url("../img/peases.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+  .sixth-section .sixth-section__pictures_raspberries {
+    background-image: url("../img/raspberries.png");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+  .sixth-section .sixth-section__pictures_date {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 5px;
+  }
+  .sixth-section .sixth-section__pictures_text {
+    width: 100%;
+    max-width: 168px;
+    height: 78px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 5px;
+  }
+  .sixth-section .sixth-section__pictures_author {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+    margin-top: -45px;
+    margin-left: 5px;
+  }
+  .sixth-section .sixth-section__footer {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 150px;
+    height: 35px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+  }
+  .sixth-section .sixth-section__footer:hover {
+    background-color: turquoise;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
 }
 /*# sourceMappingURL=style.css.map */
