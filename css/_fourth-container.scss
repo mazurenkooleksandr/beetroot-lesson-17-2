@@ -33,11 +33,11 @@
         width: 100%;
         max-width: 1170px;
         height: 980px;
-        margin: 50px auto 0;
+        margin: 60px auto 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 16px 20px;
+        gap: 20px 25px;
         grid-template-areas:
         "first-img first-img first-img second-img"
         "first-img first-img first-img third-img"
@@ -80,9 +80,10 @@
             grid-area: third-img;
             background-image: url("../img/img3.png");
             background-size: 100%;
-            width: 370px;
+            width: 372px;
             background-repeat: no-repeat;
-            height: 260px;
+            height: 258px;
+            
             
 
             &:hover {
@@ -110,12 +111,12 @@
 
         .fourth-section__grid_fifth-img {
             grid-area: fifth-img;
-            margin-left: 70px;
             background-image: url("../img/img5.png");
             background-size: 100%;
             width: 570px;
             background-repeat: no-repeat;
             height: 400px;
+            margin-left: 72px;
 
             &:hover {
                 opacity: 0.8;
@@ -153,7 +154,7 @@
     }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1500px) {
     .fourth-section {
         width: 100%;
         max-width: 1500px;
@@ -167,13 +168,13 @@
 
         .fourth-section__grid {
             width: 100%;
-            max-width: 1170px;
+            max-width: 980px;
             height: 980px;
-            margin: 50px auto 0;
+            margin: 60px auto 0;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
-            gap: 16px 20px;
+            gap: 20px 25px;
             grid-template-areas:
             "first-img first-img first-img second-img"
             "first-img first-img first-img third-img"
@@ -184,7 +185,7 @@
                 background-image: url("../img/img1.png");
                 background-size: 100%;
                 background-repeat: no-repeat;
-                height: 548px;
+                height: 348px;
                
     
                 &:hover {
@@ -198,10 +199,10 @@
                 grid-area: second-img; 
                 margin-top: 3px;
                 background-image: url("../img/img2.png");
-                background-size: 90%;
-                width: 370px;
+                background-size: 100%;
+                width: 270px;
                 background-repeat: no-repeat;
-                height: 210px;
+                height: 160px;
                 
     
                 &:hover {
@@ -215,12 +216,11 @@
             .fourth-section__grid_third-img {
                 grid-area: third-img;
                 background-image: url("../img/img3.png");
-                background-size: 90%;
-                width: 370px;
+                background-size: 100%;
+                width: 272px;
                 background-repeat: no-repeat;
-                height: 210px;
-                position: relative;
-                top:-54px;
+                height: 258px;
+                
                 
     
                 &:hover {
@@ -233,13 +233,11 @@
             .fourth-section__grid_fourth-img {
                 grid-area: fourth-img;
                 background-image: url("../img/img4.png");
-                background-size: 84.5%;
+                background-size: 100%;
                 width: 570px;
                 background-repeat: no-repeat;
                 height: 400px;
                 margin-left: 5px;
-                position: relative;
-                top: -105px;
     
                 &:hover {
                     opacity: 0.8;
@@ -250,14 +248,12 @@
     
             .fourth-section__grid_fifth-img {
                 grid-area: fifth-img;
-                margin-left: 70px;
                 background-image: url("../img/img5.png");
-                background-size: 84.5%;
+                background-size: 100%;
                 width: 570px;
                 background-repeat: no-repeat;
                 height: 400px;
-                position: relative;
-                top: -105px;
+                margin-left: 72px;
     
                 &:hover {
                     opacity: 0.8;
@@ -272,7 +268,8 @@
                 transition-duration: 2s;
             }
         }
-
+    
+            
         
     }      
 }

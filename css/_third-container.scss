@@ -1,8 +1,7 @@
 .third-section {
     width: 100%;
     max-width: 1500px;
-    height: 100%;
-    max-height: 790px;
+    height: 790px;
     background-color: #70bfff;
     margin: 0 auto;
     display: flex;
@@ -137,7 +136,7 @@
     }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1500px) {
     .third-section {
         width: 100%;
         max-width: 1500px;
@@ -161,10 +160,12 @@
     .third-section {
         width: 100%;
         max-width: 991px;
-        height: 40%;
+        height: 650px;
+
 
         .third-section__list {
             margin-top: 60px;
+            margin-left: 60px;
     
             p {
                 width: 300px;
@@ -279,26 +280,218 @@
             .third-section__bg_text {
                 color: #ffffff;
                 font-family: Raleway;
-                font-size: 75px;
+                font-size: 70px;
                 font-weight: 700;
-                width: 70%;
+                width: 100%;
                 line-height: 57px;
-                position: relative;
-                top: 170px;
-                left: 50px;
-                right: 1px;
+                margin-top: -30px;
+                margin-left: 80px;
             }
         }
     }       
+}
+
+@media screen and (max-width: 912px) {
+    .third-section {
+        width: 100%;
+        max-width: 912px;
+        height: 520px;
+
+        .third-section__list {
+            margin-top: 60px;
+            margin-left: 100px;
+    
+            p {
+                width: 300px;
+                height: 70px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+                background-color: #ffffff;
+                color: #262626;
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 700;
+                margin-top: 20px;
+    
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+    
+            .third-section__list_first-list {
+                span {
+                    position: relative;
+                    bottom: 30px;
+                    left: 35px;
+                }
+                    
+                img {
+                    position: relative;
+                    top: 30px;
+                    left: 160px;
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 20%;
+                    padding-left: 20px;
+                    top: 0;
+                }
+            }
+    
+            .third-section__list_second-list {
+                span {
+                    position: relative;
+                    bottom: 30px;
+                    left: 35px;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    left: 170px; 
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 23%;
+                    padding-left: 20px;
+                    top: 0;
+                }
+            }  
+    
+            .third-section__list_third-list {
+                span {
+                    width: 150px;
+                    position: relative;
+                    top: 5px;
+                    left: 10px;
+                    display: flex;
+                    text-align: center;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 68%;
+                    top: -62px;
+                    padding-left: 20px;
+                }
+            }
+    
+            .third-section__list_fourth-list {
+                span  {
+                    position: relative;
+                    bottom: 30px;
+                    left: 35px;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    left: 175px; 
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 24%;
+                    padding-left: 20px;
+                    top: 0;
+                }
+            }   
+        }
+    
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 65%;
+            width: 562px;
+            height: 657px;
+            margin-top: 20px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 45px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                margin-top: -120px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .third-section {
+        width: 100%;
+        max-width: 890px;
+        height: 500px;
+
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 63%;
+            width: 562px;
+            height: 657px;
+            margin-top: 20px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 45px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                position: relative;
+                right: 60px;
+               
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .third-section {
+        width: 100%;
+        max-width: 850px;
+        height: 500px;
+
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 70%;
+            width: 562px;
+            height: 657px;
+            margin-top: 20px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 40px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                position: relative;
+                top: 250px;
+                right: 60px;
+               
+            }
+        }
+    }
 }
   
 @media screen and (max-width: 767px) {
     .third-section {
         width: 100%;
         max-width: 767px;
+        height: 450px;
 
         .third-section__list {
-            margin-top: 150px;
+            margin-top: 50px;
+            
     
             p {
                 width: 210px;
@@ -403,25 +596,25 @@
         .third-section__bg {
             background-image: url("../img/tomatoes.png");
             background-repeat: no-repeat;
-            background-size: 85%;
+            background-size: 70%;
             width: 562px;
             height: 100%;
             height: 657px;
             position: relative;
-            top: 100px;
-            left: 50px;
+            top: 40px;
+            left: 80px;
             
     
             .third-section__bg_text {
                 color: #ffffff;
                 font-family: Raleway;
-                font-size: 75px;
+                font-size: 40px;
                 font-weight: 700;
                 width: 100%;
                 line-height: 57px;
                 position: relative;
-                top: 140px;
-                left: -10px;
+                top: 270px;
+                left: -45px;
             }
         }
 
@@ -429,21 +622,122 @@
     }           
 }  
 
-  
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 715px) {
     .third-section {
         width: 100%;
-        max-width: 575px;
-        display: flex;
-        flex-wrap: wrap-reverse;
+        max-width: 715px;
 
-        .third-section__list {
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 70%;
+            width: 562px;
+            height: 100%;
+            height: 657px;
             position: relative;
-            top: -200px;
+            top: 40px;
+            left: 80px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 40px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                position: relative;
+                top: 260px;
+                left: -65px;
+            }
+        }
+    }
 
     
+}
+
+@media screen and (max-width: 680px) {
+    .third-section {
+        width: 100%;
+        max-width: 680px;
+
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 70%;
+            width: 562px;
+            height: 100%;
+            height: 657px;
+            position: relative;
+            top: 40px;
+            left: 80px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 35px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                position: relative;
+                top: 250px;
+                left: -55px;
+            }
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 640px) {
+    .third-section {
+        width: 100%;
+        max-width: 640px;
+
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 70%;
+            width: 562px;
+            height: 100%;
+            height: 657px;
+            position: relative;
+            top: 40px;
+            left: 80px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 35px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                position: relative;
+                top: 240px;
+                left: -75px;
+            }
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 610px) {
+    .third-section {
+        width: 100%;
+        max-width: 610px;
+        height: 700px;
+        flex-wrap: wrap;
+
+        .third-section__list {
+            margin-top: 20px;
+            margin: 20px auto;
+            
+    
             p {
-                width: 210px;
+                width: 310px;
                 height: 70px;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
                 background-color: #ffffff;
@@ -462,7 +756,7 @@
                 span {
                     position: relative;
                     bottom: 25px;
-                    left: 10px;
+                    left: 50px;
                     
                 }
                     
@@ -473,7 +767,7 @@
                     border-left: 1px solid gray;
                     height: 70px;
                     position: relative;
-                    left: 7%;
+                    left: 35%;
                     padding-left: 10px;
                     top: 0;
                 }
@@ -483,7 +777,7 @@
                 span {
                     position: relative;
                     bottom: 25px;
-                    left: 10px;
+                    left: 50px;
                 }
     
                 img {
@@ -493,7 +787,7 @@
                     border-left: 1px solid gray;
                     height: 70px;
                     position: relative;
-                    left: 11%;
+                    left: 37.5%;
                     padding-left: 10px;
                     top: 0;
                 }
@@ -504,7 +798,7 @@
                     width: 150px;
                     position: relative;
                     top: 9px;
-                    left: 1px;
+                    left: 40px;
                     display: flex;
                     text-align: center;
                 }
@@ -515,8 +809,8 @@
                     border-left: 1px solid gray;
                     height: 70px;
                     position: relative;
-                    left: 68%;
-                    top: -57.5px;
+                    left: 76.3%;
+                    top: -58px;
                     padding-left: 10px;
                 }
             }
@@ -525,7 +819,7 @@
                 span  {
                     position: relative;
                     bottom: 25px;
-                    left: 10px;
+                    left: 50px;
                 }
     
                 img {
@@ -535,7 +829,7 @@
                     border-left: 1px solid gray;
                     height: 70px;
                     position: relative;
-                    left: 12%;
+                    left: 38.5%;
                     padding-left: 10px;
                     top: 0;
                 }
@@ -543,23 +837,343 @@
         }
     
         .third-section__bg {
-            background-image: none;
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 45%;
+            width: 562px;
+            height: 100%;
+            height: 657px;
             position: relative;
-            top: 400px;
+            top: 20px;
+            left: 150px;
             
     
             .third-section__bg_text {
                 color: #ffffff;
                 font-family: Raleway;
-                font-size: 50px;
-                text-align: center;
+                font-size: 35px;
                 font-weight: 700;
                 width: 100%;
                 line-height: 57px;
                 position: relative;
-                top: 10px;
-                left: -48px;
-                
+                top: 240px;
+                left: -55px;
+            }
+        }
+    }
+
+    
+}
+
+
+  
+@media screen and (max-width: 495px) {
+    .third-section {
+        width: 100%;
+        max-width: 495px;
+        height: 650px;
+        flex-wrap: wrap;
+
+        .third-section__list {
+            margin-top: 20px;
+            margin: 20px auto;
+            
+    
+            p {
+                width: 310px;
+                height: 70px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+                background-color: #ffffff;
+                color: #262626;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 10px;
+    
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+    
+            .third-section__list_first-list {
+                span {
+                    position: relative;
+                    bottom: 25px;
+                    left: 50px;
+                    
+                }
+                    
+                img {
+                    position: relative;
+                    top: 30px;
+                    right: 20px;
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 35%;
+                    padding-left: 10px;
+                    top: 0;
+                }
+            }
+    
+            .third-section__list_second-list {
+                span {
+                    position: relative;
+                    bottom: 25px;
+                    left: 50px;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    left: 170px; 
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 37.5%;
+                    padding-left: 10px;
+                    top: 0;
+                }
+            }  
+    
+            .third-section__list_third-list {
+                span {
+                    width: 150px;
+                    position: relative;
+                    top: 9px;
+                    left: 40px;
+                    display: flex;
+                    text-align: center;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 76.3%;
+                    top: -58px;
+                    padding-left: 10px;
+                }
+            }
+    
+            .third-section__list_fourth-list {
+                span  {
+                    position: relative;
+                    bottom: 25px;
+                    left: 50px;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    left: 175px; 
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 38.5%;
+                    padding-left: 10px;
+                    top: 0;
+                }
+            }   
+        }
+    
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 45%;
+            width: 562px;
+            height: 100%;
+            height: 657px;
+            position: relative;
+            top: 20px;
+            left: 140px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 35px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                position: relative;
+                top: 230px;
+                left: -75px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .third-section {
+        width: 100%;
+        max-width: 440px;
+        height: 650px;
+        flex-wrap: wrap;
+
+        .third-section__list {
+            margin-top: 20px;
+            margin: 20px auto;
+            
+    
+            p {
+                width: 310px;
+                height: 70px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+                background-color: #ffffff;
+                color: #262626;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 10px;
+    
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+    
+            .third-section__list_first-list {
+                span {
+                    position: relative;
+                    bottom: 25px;
+                    left: 50px;
+                    
+                }
+                    
+                img {
+                    position: relative;
+                    top: 30px;
+                    right: 20px;
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 35%;
+                    padding-left: 10px;
+                    top: 0;
+                }
+            }
+    
+            .third-section__list_second-list {
+                span {
+                    position: relative;
+                    bottom: 25px;
+                    left: 50px;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    left: 170px; 
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 37.5%;
+                    padding-left: 10px;
+                    top: 0;
+                }
+            }  
+    
+            .third-section__list_third-list {
+                span {
+                    width: 150px;
+                    position: relative;
+                    top: 9px;
+                    left: 40px;
+                    display: flex;
+                    text-align: center;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 76.3%;
+                    top: -58px;
+                    padding-left: 10px;
+                }
+            }
+    
+            .third-section__list_fourth-list {
+                span  {
+                    position: relative;
+                    bottom: 25px;
+                    left: 50px;
+                }
+    
+                img {
+                    position: relative;
+                    top: 30px;
+                    left: 175px; 
+                    border-left: 1px solid gray;
+                    height: 70px;
+                    position: relative;
+                    left: 38.5%;
+                    padding-left: 10px;
+                    top: 0;
+                }
+            }   
+        }
+    
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 45%;
+            width: 562px;
+            height: 100%;
+            height: 657px;
+            position: relative;
+            top: 20px;
+            left: 130px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 30px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                position: relative;
+                top: 220px;
+                left: -75px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .third-section {
+        width: 100%;
+        max-width: 500px;
+        height: 650px;
+        flex-wrap: wrap;
+
+        .third-section__bg {
+            background-image: url("../img/tomatoes.png");
+            background-repeat: no-repeat;
+            background-size: 45%;
+            width: 562px;
+            height: 100%;
+            height: 657px;
+            position: relative;
+            top: 50px;
+            left: 105px;
+            
+    
+            .third-section__bg_text {
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 30px;
+                font-weight: 700;
+                width: 100%;
+                line-height: 57px;
+                margin-left: 55px;
+                margin-top: -290px;
+
             }
         }
     }

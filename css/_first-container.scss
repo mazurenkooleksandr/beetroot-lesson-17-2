@@ -126,7 +126,7 @@
         background-size: 100%;
         max-width: 20px;
         height: 40px;
-        padding-bottom: 100px;
+        padding-bottom: 90px;
         margin-top: 100px;   
     }
 }
@@ -135,6 +135,14 @@
     .first-section {
         width: 100%;
         max-width: 1500px;
+        height: 800px;
+
+        .first-section__container_scroll {
+            margin-top: 50px; 
+            padding-bottom: 90px;
+
+            
+        }
     }
 }
   
@@ -142,6 +150,7 @@
     .first-section {
         width: 100%;
         max-width: 1199px;
+        height: 660px;
 
         .first-section__header-menu {
     
@@ -156,7 +165,9 @@
         }
     
         .first-section__container_scroll {
-            margin-top: 70px;   
+            margin-top: 60px; 
+            padding-bottom: 70%;
+            
         }
     }
 }
@@ -165,11 +176,14 @@
     .first-section {
         width: 100%;
         max-width: 991px;
+        height: 100%;
+        max-height: 600px;
 
         .first-section__header-menu {
     
             .first-section__header-menu_header-text {
                 margin-left: 85px;
+               
             }
     
             .first-section__header-menu_menu {
@@ -183,8 +197,10 @@
         }
     
         .first-section__container_scroll {
-            padding-bottom: 100px;
-            margin-top: 40px;    
+            padding-bottom: 80px;
+            margin-top: 40px;
+            max-width: 15px;
+            height: 30px;
         }
     }        
 }
@@ -193,6 +209,7 @@
     .first-section {
         width: 100%;
         max-width: 912px;
+        height: 510px;
 
         .first-section__header-menu {
 
@@ -250,7 +267,7 @@
         .first-section__container_scroll {
             max-width: 15px;
             height: 30px;
-            padding-bottom: 70px;
+            padding-bottom: 60px;
             margin-top: 30px;    
         }
     }   
@@ -260,6 +277,7 @@
     .first-section {
         width: 100%;
         max-width: 767px; 
+        height: 382px;
         
         .first-section__header-menu {
 
@@ -327,6 +345,7 @@
     .first-section {
         width: 100%;
         max-width: 575px; 
+        height: 281px;
         
         .first-section__header-menu {
 
@@ -384,6 +403,7 @@
     .first-section {
         width: 100%;
         max-width: 420px; 
+        height: 234px;
         
         .first-section__header-menu {
 
@@ -442,6 +462,8 @@
     .first-section {
         width: 100%;
         max-width: 350px;
+        height: 195px;
+        background-color: #ffffff;
 
         .first-section__header-menu {
 
