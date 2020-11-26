@@ -368,6 +368,10 @@
             margin-top: 0px;
             margin-left: 10px;
             padding-left: 15px;
+
+            &::placeholder {
+                font-size: 9px;
+            }
         }
     
         .fifth-section__button {
