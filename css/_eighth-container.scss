@@ -37,3 +37,36 @@
         }
     }
 }
+
+@media screen and (max-width: 565px) {
+    .eighth-section {
+        width: 100%;
+        max-width: 565px;
+        height: 60px;
+
+        .eighth-section__company {
+            color: #b9b9b9;
+            font-family: Raleway;
+            font-size: 8px;
+            font-weight: 300;
+            line-height: 15px;
+        }
+    
+        .eighth-section__cahee {
+            color: #b9b9b9;
+            font-family: Pacifico;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+        }
+        
+        .eighth-section__text {
+            color: #b9b9b9;
+            font-family: Raleway;
+            font-size: 8px;
+            font-weight: 300;
+            line-height: 15px;
+        }
+        
+    }
+}

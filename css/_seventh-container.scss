@@ -335,12 +335,10 @@
             height: 35px;
             color: #262626;
             font-family: Raleway;
-            font-size: 60px;
             font-weight: 700;
             line-height: 25px;
             text-align: center;
             margin: 0 auto;
-            padding-top: 50px;
         }
     
         .seventh-section__text-header {
@@ -349,12 +347,10 @@
             height: 31px;
             color: #262626;
             font-family: Raleway;
-            font-size: 17px;
             font-weight: 300;
             line-height: 25px;
             text-align: center;
             margin: 0 auto;
-            padding-top: 28px;
         }
     
         .seventh-section__container {
@@ -371,7 +367,6 @@
             outline: none;
             border: none;
             margin-left: 30px;
-            margin-top: 10px;
     
             &::placeholder {
                 color: #ffffff;
@@ -407,7 +402,6 @@
             line-height: 25px;
             text-align: left;
             font-family: Raleway;
-            font-size: 15px;
             font-weight: 700;
             margin-top: 15px;
             margin-right: 30px;
@@ -416,7 +410,6 @@
         .seventh-section__text-address {
             color: #262626;
             font-family: Raleway;
-            font-size: 17px;
             font-weight: 300;
             line-height: 10px;
             text-align: left;
@@ -440,13 +433,13 @@
             height: 25px;
             color: #262626;
             font-family: Raleway;
-            font-size: 40px;
+            font-size: 60px;
             font-weight: 700;
             line-height: 25px;
             text-align: center;
             margin: 0 auto;
-            padding-top: 20px;
         }
+           
     
         .seventh-section__text-header {
             width: 100%;
@@ -454,12 +447,11 @@
             height: 31px;
             color: #262626;
             font-family: Raleway;
-            font-size: 12px;
             font-weight: 300;
             line-height: 15px;
             text-align: center;
             margin: 0 auto;
-            padding-top: 18px;
+           
         }
     
         .seventh-section__container {
@@ -470,14 +462,14 @@
     
         .seventh-section__container_form {
             width: 180%;
-            max-width: 500px;
+            max-width: 280px;
             height: 50px;
             background-color: #00c4c4;
             opacity: 0.5;
             outline: none;
             border: none;
             margin-left: 30px;
-            margin-top: 5px;
+            
     
             &::placeholder {
                 color: #ffffff;
@@ -500,7 +492,7 @@
     
         .seventh-section__textarea {
             width: 180%;
-            max-width: 500px;
+            max-width: 280px;
             height: 250px;
             background-color: #00c4c4;
             opacity: 0.5;
