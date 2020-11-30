@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cahee</title>
+    <meta name="description" content="This site is designed to show what service we offer">
+    <meta name="keywords" content="service, blog, gallery" />
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
@@ -17,14 +19,30 @@
         
             <nav class="first-section__header-menu_menu">
                 <ul>
-                    <li>home</li>
-                    <li>about</li>
-                    <li>services</li>
-                    <li>gallery</li>
-                    <li>blog</li>
-                    <li>contact</li>
+                    <li><a class="menu__item" href="#">Home</a></li>
+                    <li><a class="menu__item" href="#second-container">About</a></li>
+                    <li><a class="menu__item" href="#third-container">Services</a></li>
+                    <li><a class="menu__item" href="#fourth-container">Gallery</a></li>
+                    <li><a class="menu__item" href="#sixth-container">Blog</a></li>
+                    <li><a class="menu__item" href="#seventh-container">Contact</a></li>
                 </ul>
             </nav>
+
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                <ul class="menu__box">
+                  <p class="first-section__hamburger-menu_header-text">Cahee</p>  
+                  <li><a class="menu__item" href="#">Home</a></li>
+                  <li><a class="menu__item" href="#second-container">About</a></li>
+                  <li><a class="menu__item" href="#third-container">Services</a></li>
+                  <li><a class="menu__item" href="#fourth-container">Gallery</a></li>
+                  <li><a class="menu__item" href="#sixth-container">Blog</a></li>
+                  <li><a class="menu__item" href="#seventh-container">Contact</a></li>
+                </ul>
+            </div>
 
         </div>
 
@@ -37,7 +55,7 @@
             <a href="#seventh-container"><p class="first-section__container_scroll"></p></a>
     </section>
 
-    <section class="second-section">
+    <section class="second-section" id="second-container">
         <div class="second-section__image"></div>
 
         <div class="second-section__second-container">
@@ -48,7 +66,7 @@
         </div>
     </section>
 
-    <section class="third-section">
+    <section class="third-section" id="third-container">
         <div class="third-section__list">
             <p class="third-section__list_first-list"><span>Online Shopping</span><img src="./img/icon.svg" width="47px" height="44px" alt="icon"></p>
             <p class="third-section__list_second-list"><span>Quality Product</span><img src="./img/icon1.svg" width="47px" height="44px" alt="icon1"></p>
@@ -61,7 +79,7 @@
         </div>
     </section>
 
-    <section class="fourth-section">
+    <section class="fourth-section" id="fourth-container">
         <div >
             <p class="fourth-section__header">Gallery</p>
             <p class="fourth-section__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -87,7 +105,7 @@
         </div>
     </section>
 
-    <section class="fifth-section">
+    <section class="fifth-section" id="fifth-container">
             <div>
                 <p class="fifth-section__header">Subscribe To Us</p>
                 <p class="fifth-section__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -101,7 +119,7 @@
             </div>
     </section>
 
-    <section class="sixth-section">
+    <section class="sixth-section" id="sixth-container">
         <div class="sixth-section__header">
             <h1>Blog</h1>
             <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
@@ -138,7 +156,7 @@
         </div>
     </section>
 
-    <section class="seventh-section">
+    <section class="seventh-section" id="seventh-container">
             <div>
                 <h1 class="seventh-section__h1-header">Contact</h1>
                 <p class="seventh-section__text-header">

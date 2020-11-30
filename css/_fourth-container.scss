@@ -979,9 +979,9 @@
         .fourth-section__header {
             color: #262626;
             font-family: Raleway;
-            font-size: 50px;
+            font-size: 30px;
             font-weight: 700;
-            line-height: 27px;
+            line-height: 17px;
             text-align: center;
             padding-top: 50px;
         }
@@ -989,10 +989,10 @@
         .fourth-section__text {
             width: 100%;
             max-width: 507px;
-            height: 40px;
+            height: 20px;
             color: #262626;
             font-family: Raleway;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 300;
             line-height: 27px;
             text-align: center;
@@ -1009,7 +1009,8 @@
     
             .fourth-section__images {
                 display: block;
-                margin: 0 auto;
+                margin-left: auto;
+                margin-right: auto;
         
                 .fourth-section__images_first-img {
                     background-image: url("../img/img1.png");
@@ -1116,14 +1117,14 @@
         .fourth-section__footer {
             width: 100%;
             max-width: 200px;
-            height: 55px;
+            height: 35px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
             background-color: #5585a2;
             color: #ffffff;
             font-family: Raleway;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 300;
-            line-height: 57px;
+            line-height: 37px;
             text-align: center;
             margin: 30px auto 0;
             cursor: pointer;
